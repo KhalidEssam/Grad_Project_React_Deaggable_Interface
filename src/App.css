@@ -1,0 +1,196 @@
+main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  position: relative;
+  border: 1px solid black;
+  background-color: rgb(175, 212, 209);
+  height: 800px;
+  width: 1400px;
+  overflow: hidden;
+}
+.rightcontainer  {
+  position: relative;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  height: 95%;
+  width: 72%;
+  overflow: hidden;
+  float: right;
+  margin: 1%;
+}
+.inputcontainer  {
+  position: relative;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  height: 95%;
+  width: 20%;
+  overflow: hidden;
+  float: left;
+  margin: 1%;
+}
+#text{
+  margin-right: 5%;
+  float: right;
+}
+.reportcontainer  {
+  position: relative;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  height: 95%;
+  width: 20%;
+  overflow: hidden;
+  float: left;
+  margin: 1%;
+}
+.outputcontainer{
+  position: relative;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  height: 95%;
+  width: 20%;
+  overflow: hidden;
+  float: left;
+  margin: 1%;
+}
+
+.processingcontainer {
+  position: relative;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  height: 95%;
+  width: 20%;
+
+  overflow: hidden;
+  float: left;
+  margin: 1%;
+}
+.leftcontainer  {
+  position: relative;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  height: 95%;
+  width: 23%;
+  overflow: hidden;
+  float: left;
+  margin: 1%;
+}
+.Acc {
+  position: absolute;
+  top: 140PX;
+  left: 0;
+  object-fit: contain;
+  background-image: url("Acc.png");
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+}
+
+.Gyro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url("Gyr.png");
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+}
+
+.Video {
+  position: absolute;
+  top: 70PX;
+  left: 0;
+  background-color: red;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url("Video.png");
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+}
+.Repcount{
+  
+    position: absolute;
+    top: 460PX;
+    left: 0;
+    background-color: rgb(137, 124, 124);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url("repcount.png");
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+
+}
+.processing {
+  position: absolute;
+  top: 220PX;
+  left: 0;
+  background-color: rgb(13, 1, 1);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url("CNN_LSTM.jpeg");
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+}
+.report {
+  position: absolute;
+  top: 300PX;
+  left: 0;
+  background-color: red;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url("report.jpeg");
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+}
+
+.Frquency {
+  position: absolute;
+  top: 380PX;
+  left: 0;
+  background-color: rgb(150, 68, 68);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url("freq.png");
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+}
+
