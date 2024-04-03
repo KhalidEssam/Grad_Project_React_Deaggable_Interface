@@ -1,5 +1,5 @@
 # Building draggable Component with React and TypeScript
-## Watch the video on [YouTube](https://www.youtube.com/watch?v=ZcDWyVj6-uU)
+## Watch the video on [YouTube]
 
 
 ### If you like the content, give us a ⭐️, hit 👍 and Subscribe.
